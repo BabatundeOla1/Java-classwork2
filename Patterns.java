@@ -1,8 +1,11 @@
 public class Patterns{
 
    public static void main(String...args){
+	trianglePatterns(3);
+   }
 
-	int row = 3;
+
+   public static void trianglePatterns(int row) {
 
 	for(int count = 1; count <= row; count++){
 
@@ -13,8 +16,9 @@ public class Patterns{
 				System.out.print(counts + " ");
 			}
 
-	  	System.out.println();	
+	  	 System.out.println();	
 	}
+
    }
 
 }
