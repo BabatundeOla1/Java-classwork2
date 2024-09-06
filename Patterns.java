@@ -12,9 +12,10 @@ public class Patterns{
 		for(int space = 2 * (row - count); space >= 0; space--){
 			System.out.print(" ");
 		}	
-			for(int counts = 1; counts <= count; counts++){
-				System.out.print(counts + " ");
-			}
+		
+		for(int counts = 1; counts <= count; counts++){
+			System.out.print(counts + " ");
+		}
 
 	  	 System.out.println();	
 	}
